@@ -1,3 +1,4 @@
+// forループ、whileループ、および再帰を使用して、リスト内の数字の合計を計算する3つの関数を記述せよ。
 object P01 {
   def listTotalUsingFor(args: List[Int]) : Int = {
     var sum = 0

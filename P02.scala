@@ -1,3 +1,5 @@
+// 交互に要素を取ることで、2つのリストを結合する関数を記述せよ。例えば [a,, c]と[1,, 3]という2つのリストを与えると、関数は [a,,,,, 3]を返す。
+
 object P02 {
   def toInterchangeList(listA: List[Any], listB: List[Any]): List[Any] = {
     (listA,listB) match {
